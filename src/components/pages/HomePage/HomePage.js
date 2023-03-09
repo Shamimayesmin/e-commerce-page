@@ -1,6 +1,5 @@
 import React from "react";
 import BottomSection from "../BottomSection/BottomSection";
-import Chart from "../OverView/Chart";
 import OverView from "../OverView/OverView";
 import SmallCard from "../SmallCard/SmallCard";
 
