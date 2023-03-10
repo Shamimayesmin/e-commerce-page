@@ -3,6 +3,12 @@ import { Link, Outlet } from "react-router-dom";
 import { RxDashboard } from "react-icons/rx";
 import Navbar from "../../pages/Navbar/Navbar";
 import Footer from "../../pages/Footer/Footer";
+import { BsCalendarDate,BsChatDots} from 'react-icons/bs';
+import { AiTwotoneFileExcel,AiOutlineProject} from 'react-icons/ai';
+import { MdOutlineComment,MdEmail} from 'react-icons/md';
+import { TbFileInvoice} from 'react-icons/tb';
+import { IoIosContact} from 'react-icons/io';
+
 
 const DashboardLayout = () => {
 	return (
@@ -41,20 +47,56 @@ const DashboardLayout = () => {
 								</li>
 							</ul>
 						</div>
-						{/* <>
-							<li className="hover:bg-red-600 hover:text-white rounded-lg">
+						<>
+							<li className="hover:bg-cyan-500 hover:text-white rounded-lg text-white">
 								<Link to="/dashboard/addstudent" className="text-center">
-									<FiUsers className="ml-7"></FiUsers>
-									Add Student
+									<BsCalendarDate className="ml-2"/>
+									Calender
 								</Link>
 							</li>
-							<li className="hover:bg-red-600 hover:text-white rounded-lg">
+							<li className="hover:bg-cyan-500 hover:text-white rounded-lg text-white">
 								<Link to="/dashboard/manage">
-									<MdManageSearch className="ml-7" />
-									Manage Student
+									<BsChatDots className="ml-2" />
+									Chat
 								</Link>
 							</li>
-						</> */}
+							<li className="hover:bg-cyan-500 hover:text-white rounded-lg text-white">
+								<Link to="/dashboard/manage">
+									<AiTwotoneFileExcel className="ml-2" />
+									File Manager
+								</Link>
+							</li>
+							<li className="hover:bg-cyan-500 hover:text-white rounded-lg text-white">
+								<Link to="/dashboard/manage">
+									<MdOutlineComment className="ml-2" />
+									Ecommerce
+								</Link>
+							</li>
+							<li className="hover:bg-cyan-500 hover:text-white rounded-lg text-white">
+								<Link to="/dashboard/manage">
+									<MdEmail className="ml-2" />
+									Email
+								</Link>
+							</li>
+							<li className="hover:bg-cyan-500 hover:text-white rounded-lg text-white">
+								<Link to="/dashboard/manage">
+									<TbFileInvoice className="ml-2" />
+									Invoices
+								</Link>
+							</li>
+							<li className="hover:bg-cyan-500 hover:text-white rounded-lg text-white">
+								<Link to="/dashboard/manage">
+									<AiOutlineProject className="ml-2" />
+									Projects
+								</Link>
+							</li>
+							<li className="hover:bg-cyan-500 hover:text-white rounded-lg text-white">
+								<Link to="/dashboard/manage">
+									<IoIosContact className="ml-2" />
+									Contacts
+								</Link>
+							</li>
+						</>
 					</ul>
 				</div>
 			</div>
