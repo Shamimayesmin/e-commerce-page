@@ -1,11 +1,12 @@
 import React from "react";
 import Earning from "./Earning";
+import RecentActivity from "./RecentActivity";
 
 const Profile = () => {
 	return (
 		<section className="w-full dark:bg-gray-800 dark:text-gray-100">
 			<div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-3">
-				<div className="flex w-96 flex-col mx-1 my-6 shadow-lg">
+				<div className="flex w-96 flex-col mx-1 my-3 shadow-lg rounded-lg">
 					<div
 						style={{
 							backgroundImage: `url("https://i.ibb.co/PG5m3GY/bg.png")`,
@@ -23,7 +24,7 @@ const Profile = () => {
 						</p>
 						<p className="text-sm">Web Developer</p>
 					</div>
-					<div className="flex my-6 items-center justify-center mx-auto">
+					<div className="flex my-2 items-center justify-center mx-auto">
 						<div>
 							<h2 className="font-bold">1,296</h2>
 							<p>Products</p>
@@ -41,6 +42,7 @@ const Profile = () => {
                         <Earning></Earning>
                     </div>
                     <div className="divider px-3"></div> 
+                    <RecentActivity></RecentActivity>
 				</div>
 			</div>
 		</section>

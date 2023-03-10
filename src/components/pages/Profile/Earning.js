@@ -65,7 +65,7 @@ const Earning = () => {
     })
     return (
         <div className="card">
-        <div className="py-6">
+        <div className="py-4">
             
             <div className="flex justify-between px-5">
             <h2 className="font-bold">Earning</h2>
@@ -79,7 +79,7 @@ const Earning = () => {
                 <h2 className='font-bold py-2'>$26,256</h2>
                 <p>Earning this month</p>
                 <div className='py-3'>
-                <div className="badge bg-green-100 text-green-700 text-xs">+2.65%</div>
+                <div className="badge bg-green-100 text-green-700 text-xs mr-1">+2.65%</div>
                  <span>From previous period</span>
                 </div>
             </div>
