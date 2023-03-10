@@ -13,6 +13,7 @@ const Profile = () => {
 						}}
 						className="px-4 bg-black py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-gray-900"
 					></div>
+					<div className="bg-white lg:p-0 sm:p-5 lg:mx-0 sm:mx-7">
 					<div className="flex flex-col bg-white items-center justify-center p-8 rounded-b-lg dark:bg-violet-400 dark:text-gray-900">
 						<img
 							src="https://i.ibb.co/yq8zMGL/images-1.jpg"
@@ -24,7 +25,7 @@ const Profile = () => {
 						</p>
 						<p className="text-sm">Web Developer</p>
 					</div>
-					<div className="flex my-2 items-center justify-center mx-auto">
+					<div className="flex my-2 bg-white items-center justify-center mx-auto">
 						<div>
 							<h2 className="font-bold">1,296</h2>
 							<p>Products</p>
@@ -37,12 +38,14 @@ const Profile = () => {
                         
 					</div>
                     <div className="divider px-3"></div> 
-
-                    <div>
+					<div>
                         <Earning></Earning>
                     </div>
                     <div className="divider px-3"></div> 
                     <RecentActivity></RecentActivity>
+					</div>
+
+                    
 				</div>
 			</div>
 		</section>

@@ -65,7 +65,7 @@ const Earning = () => {
     })
     return (
         <div className="card">
-        <div className="py-4">
+        <div className="py-4 bg-white">
             
             <div className="flex justify-between px-5">
             <h2 className="font-bold">Earning</h2>
