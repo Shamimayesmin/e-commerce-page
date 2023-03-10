@@ -2,6 +2,7 @@ import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import { RxDashboard } from "react-icons/rx";
 import Navbar from "../../pages/Navbar/Navbar";
+import Footer from "../../pages/Footer/Footer";
 
 const DashboardLayout = () => {
 	return (
@@ -57,6 +58,7 @@ const DashboardLayout = () => {
 					</ul>
 				</div>
 			</div>
+			<Footer></Footer>
 		</div>
 	);
 };

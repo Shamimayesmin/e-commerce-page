@@ -6,8 +6,8 @@ import { FaUserFriends } from "react-icons/fa";
 const SmallCard = () => {
     return (
         <>
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 p-5">
-					<div className="card h-24 shadow-lg bg-white">
+            <div className="grid container sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 p-5">
+					<div className=" container card h-24 shadow-lg bg-white">
 						<div className="card-body">
 							<div className="flex items-center gap-3">
 								<div className="bg-violet-400 p-2 rounded-lg">
@@ -19,7 +19,7 @@ const SmallCard = () => {
 								</div>
 
 								<div className="card-actions justify-end ml-10">
-									<div className="badge bg-green-100 text-green-700">+2.65%</div>
+									<div className="badge bg-green-100 text-green-700 text-xs">+2.65%</div>
 									
 								</div>
 							</div>
@@ -39,7 +39,7 @@ const SmallCard = () => {
 								</div>
 
 								<div className="card-actions justify-end ml-10">
-									<div className="badge bg-red-200 text-red-600">-0.82%</div>
+									<div className="badge text-xs bg-red-200 text-red-600">-0.82%</div>
 									
 								</div>
 							</div>
@@ -57,7 +57,7 @@ const SmallCard = () => {
 								</div>
 
 								<div className="card-actions justify-end ml-10">
-									<div className="badge bg-red-200 text-red-600">-1.04%</div>
+									<div className="badge text-xs bg-red-200 text-red-600">-1.04%</div>
 									
 								</div>
 							</div>

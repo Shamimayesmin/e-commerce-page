@@ -34,9 +34,6 @@ const Chart = () => {
               categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
             },
             
-            // fill: {
-            //   opacity: 1
-            // },
             fill: {
                 type: 'gradient',
                 gradient: {

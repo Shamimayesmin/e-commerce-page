@@ -2,13 +2,13 @@ import React from "react";
 
 const MonthIncome = () => {
 	return (
-		<div className="py-6 px-4 bg-white">
+		<div className="py-6 px-4 bg-white mx-auto">
 			<h1 className="text-start px-5 mb-3 font-bold">Overview</h1>
 			<h2 className="text-start px-5">This Month</h2>
 			<div className="flex items-center px-5 py-2">
 				<h3 className="text-3xl font-bold">$24,568</h3>
 				<div className="card-actions justify-end ml-10">
-					<div className="badge bg-green-100 text-green-700">+2.65%</div>
+					<div className="badge text-xs bg-green-100 text-green-700">+2.65%</div>
 				</div>
 			</div>
 			<div className="px-7 mt-4">

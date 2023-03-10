@@ -21,7 +21,7 @@ const TopProduct = () => {
 						</div>
 
 						<div className="card-actions justify-end ml-10">
-							<div className="badge bg-green-100 text-green-700">+2.65%</div>
+							<div className="badge text-xs bg-green-100 text-green-700">+2.65%</div>
 						</div>
 					</div>
 					<div className="flex items-center gap-3">
@@ -34,7 +34,7 @@ const TopProduct = () => {
 						</div>
 
 						<div className="card-actions justify-end ml-10">
-							<div className="badge bg-green-100 text-green-700">+2.65%</div>
+							<div className="badge text-xs bg-green-100 text-green-700">+2.65%</div>
 						</div>
 					</div>
 					<div className="flex items-center gap-3">
@@ -47,7 +47,7 @@ const TopProduct = () => {
 						</div>
 
 						<div className="card-actions justify-end ml-10">
-							<div className="badge bg-green-100 text-green-700">+2.65%</div>
+							<div className="badge text-xs bg-green-100 text-green-700">+2.65%</div>
 						</div>
 					</div>
 					<div className="flex items-center gap-3">
@@ -60,7 +60,7 @@ const TopProduct = () => {
 						</div>
 
 						<div className="card-actions justify-end ml-10">
-							<div className="badge bg-green-100 text-green-700">+2.65%</div>
+							<div className="badge text-xs bg-green-100 text-green-700">+2.65%</div>
 						</div>
 					</div>
 				</div>
