@@ -20,7 +20,7 @@ const Earning = () => {
                   track: {
                     background: "#e7e7e7",
                     strokeWidth: '97%',
-                    margin: 5, // margin is in pixels
+                    margin: 5, 
                     dropShadow: {
                       enabled: true,
                       top: 2,

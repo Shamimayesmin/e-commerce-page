@@ -2,7 +2,7 @@ import React from "react";
 
 const MonthIncome = () => {
 	return (
-		<div className="lg:py-6 lg:px-4 bg-white mx-auto sm:p-7">
+		<div className="lg:py-6 lg:px-4 bg-white mx-auto rounded-lg sm:justify-center sm:items-center">
 			<h1 className="text-start px-5 mb-3 font-bold">Overview</h1>
 			<h2 className="text-start px-5">This Month</h2>
 			<div className="flex items-center px-5 py-2">
