@@ -41,7 +41,7 @@ const Navbar = () => {
                         </li>
 
 						<li>
-							<a href="/"> item 2</a>
+							<a href="/"> Ecommerce</a>
 						</li>
 					</ul>
 				</div>
